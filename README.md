@@ -7,7 +7,7 @@ The workflow I used follows what is described in this [2013 post by Frank Lowney
  1. Install Soundflower and Audio Hijack, to handle communication between the audio-playback application and Apple's Dictation tool.
  1. Pipe audio output to Soundflower as "auxiliary device output" in Audio Hijack.
  1. Set both the input of Dictation tool and the output of main audio-playback application to Soundflower.
- 1. For transcription from a recording, begin audio playback and then quickly start Dictation in a text editor that supports it.
+ 1. For transcription from a recording, begin audio playback and then quickly turn on Dictation in a text editor that supports it.
 
 Third-party software I used: Audio Hijack Pro (v. 2.11.6), Soundflower (v. 1.5.1), Audacity (v. 2.1.0), BBEdit (v. 11.5.2). Points for attention:
 
@@ -19,7 +19,7 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Soundflower (v. 1.5.1
  
  1. **Dictation** is to be enabled in Apple's System Preferences (`Dictation & Speech` pane). That pane also allows use of a keyboard shortcut to start dictation,
  
- 1. **BBEdit** is what I used for receiving the output of Dictation. It has a no-cost parallel release, **TextWrangler**. Both support Dictation (menu `Edit => Start Dictation…`). My keyboard is old and doesn't have the key needed for Dictation's keyboard shortcut; instead, I assigned a key-binding to "Start Dictation…" in BBEdit (`Preferences => Menus & Shortcuts`). 
+ 1. **BBEdit** is what I used for receiving the output of Dictation. It has a no-cost parallel release, **TextWrangler**. Both support Dictation (menu `Edit => Start Dictation…`). My keyboard is old and doesn't have the key needed for Dictation's keyboard shortcut; instead, I assigned a key-binding to "`Start Dictation…`" in BBEdit (`Preferences => Menus & Shortcuts`). 
  
  1. **Operating system**. I am on Apple OS 10.9.5. I don't know whether or not Soundflower works on later versions of the OS.
  
