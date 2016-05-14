@@ -62,6 +62,7 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Audacity (v. 2.1.0), 
 ### QuickTime (v. 10.3) playback:
 
 > There are those who consider that studies in harmony counterpoint if you are the exclusive province of the intended but if they reflect that theory must follow practice rarely proceeding into a chance we must realize that musical theory is not a set of directions for composing music it's rather the collected and systematize deductions gathered budgeting the practice of composers over Time and attempt to set forth what is O has been there compact it tells not how music but her music has been written in the past is the introduction to Harmony
+
 ---
 
 Original text I read from: 
