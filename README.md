@@ -2,22 +2,22 @@
 
 The workflow I used follows what is described in this [2013 post by Frank Lowney](http://telestreamblog.telestream.net/2013/12/using-dictation-to-turn-recorded-audio-to-text-2/). Basic steps:
 
- 1. Install Soundflower.
+ 1. Install Soundflower and Audio Hijack, to handle communication beween audio-playback application and Dictation tool.
  1. Pipe audio output to Soundflower as "auxiliary device output" in Audio Hijack.
  1. Set both the input of Dictation tool and the output of main audio-playback application to Soundflower.
- 1. Begin audio playback and then quickly start Dictation in a text editor that supports it.
+ 1. For transcription from a recording, begin audio playback and then quickly start Dictation in a text editor that supports it.
 
-Third-party software I used: Audio Hijack Pro (v. 2.11.6), Audacity (v. 2.1.0), Soundflower (v. 1.5.1), BBEdit (v. 11.5.2). Points for attention:
+Third-party software I used: Audio Hijack Pro (v. 2.11.6), Soundflower (v. 1.5.1), Audacity (v. 2.1.0), BBEdit (v. 11.5.2). Points for attention:
 
  1. **Audio Hijack** costs money and was necessary for the workflow. Efforts to circumvent the need for this tool failed.
  
- 1. **Audacity** is free and open-source, and it helpful for editing recordings, increasing volume, adding seconds of silence at the start of the recording (helps with the workflow), and slowing down fast-talking interviewees. 
- 
  1. **Soundflower** is the actual driver that enables output from an audio-playback application to be piped to Dictation.
+ 
+ 1. **Audacity** is free and open-source, and it helpful for editing recordings, increasing volume, adding seconds of silence at the start of the recording (ensures Dictation doesn't miss the start of the recording), and slowing down fast-talking interviewees. 
  
  1. **Dictation** is to be enabled in Apple's System Preferences (Dictation & Speech pane). That pane also allows use of a keyboard shortcut to start dictation,
  
- 1. **BBEdit** is what I used for receiving the output of Dictation. It has a free parallel release, **TextWrangler**. Both support Dictation (menu Edit => Start Dictation…). My keyboard is old and doesn't have the key needed for Dictation's keyboard shortcut; instead, I assigned a key-binding to "Start Dictation…" in BBEdit (Preferences => Menus & Shortcuts). 
+ 1. **BBEdit** is what I used for receiving the output of Dictation. It has a no-cost parallel release, **TextWrangler**. Both support Dictation (menu Edit => Start Dictation…). My keyboard is old and doesn't have the key needed for Dictation's keyboard shortcut; instead, I assigned a key-binding to "Start Dictation…" in BBEdit (Preferences => Menus & Shortcuts). 
  
  1. **Operating system**. I am on Apple OS 10.9.5. I don't know whether or not Soundflower works on later versions of the OS.
  
@@ -29,13 +29,13 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Audacity (v. 2.1.0), 
 
 ## Data
 
-Original text I read from: 
+The original text I read from: 
 
 > There are those who consider that studies in harmony, counterpoint, and fugue are the exclusive province of the intended composer. But if we reflect that theory must follow practice, rarely preceding it except by chance, we must realize that musical theory is not a set of directions for composing music. It is rather the collected and systematized deductions gathered by observing the practice of composers over a long time, and it attempts to set forth what is or has been their common practice. It tells not how music will be written in the future, but how music has been written in the past. — Walter Piston, Introduction to _Harmony_ (1941)
 
-The recordings I am using, edited to remove a garbled word and with five seconds of silence prepended, are also present in this repository.
+The recordings I used, edited to remove a garbled word and with five seconds of silence prepended, are also present in this repository.
 
-## Original recording, speed unchanged
+## Transcription by Dictation of original recording, speed unchanged
 
 ### Audacity (v. 2.1.0) playback:
 
@@ -53,7 +53,7 @@ The recordings I am using, edited to remove a garbled word and with five seconds
 
  1. > There are those who consider that studies in harmony counterpoint you are the exclusive province of the intended components but if they reflect that theory must follow practice rarely proceeding it except by chance we must realize that musical theory is not a set of directions for composing music it's wrapping the collected and systematize deductions gathered by observing the practice of composers overwhelmed by and it attempts to set forth what is old has been there coming practice details not how music but how music has been written in the past is the introduction to Harmony
 
-## Original recording slowed 15%
+## Transcription by Dictation of original recording, slowed 15%
 
 ### Audacity (v. 2.1.0) playback:
 
@@ -63,7 +63,7 @@ The recordings I am using, edited to remove a garbled word and with five seconds
 
 > There are those who consider the studies and harmony counterpoint a few are the exclusive province of the intended but if we reflect back theory must follow practice rarely proceeding except for chance we must realize that musical theory is not a set of directions for composing music it's Robin the collective and systematize productions gathered by observing the practice of composers fool talk and it attempts to set forth what is role has been there, practice it tells not how music but how music has been written in the past is the production harmony
 
-## Original recording sped up 15%
+## Transcription by Dictation of original recording, sped up 15%
 
 ### Audacity (v. 2.1.0) playback:
 
