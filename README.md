@@ -2,7 +2,7 @@ As the first step in a small research project, I have been looking into automate
 
 ## Workflow
 
-The workflow I used follows what is described in this [2013 post by Frank Lowney](http://telestreamblog.telestream.net/2013/12/using-dictation-to-turn-recorded-audio-to-text-2/). Basic steps:
+The workflow I used follows what is described in this [2013 post by Frank Lowney](http://telestreamblog.telestream.net/2013/12/using-dictation-to-turn-recorded-audio-to-text-2/) on Lucas Bischofberger's blog. Basic steps:
 
  1. Install Soundflower and Audio Hijack, to handle communication between the audio-playback application and Apple's Dictation tool.
  1. Pipe audio output to Soundflower as "auxiliary device output" in Audio Hijack.
