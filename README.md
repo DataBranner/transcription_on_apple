@@ -24,6 +24,8 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Audacity (v. 2.1.0), 
  1. **Hardware**. When recording the sample text, I used a headset to ensure clarity. I honestly have no idea whether Apple's built-in microphone will do better or worse for this purpose. 
 
  1. Apple's Dictation functionality doesn't produce identical transcriptions, even from the same original recording. Below are examples, all from the same original recording.
+ 
+ 1. Comparing the original text to the transcription, by use of Python's `difflib.SequenceMatcher(isjunk=None, string_1, string_2, autojunk=False)`, the average "accuracy" is about 91% for the examples shown here, with QuickTime doing slightly worse in the two cases where the speed of the recording has been changed.
 
 ## Original recording, speed unchanged
 
@@ -69,6 +71,6 @@ Original text I read from:
 
 > There are those who consider that studies in harmony, counterpoint, and fugue are the exclusive province of the intended composer. But if we reflect that theory must follow practice, rarely preceding it except by chance, we must realize that musical theory is not a set of directions for composing music. It is rather the collected and systematized deductions gathered by observing the practice of composers over a long time, and it attempts to set forth what is or has been their common practice. It tells not how music will be written in the future, but how music has been written in the past. — Walter Piston, Introduction to _Harmony_ (1941)
 
-The recordings I am using, edited to remove a garbled word and with five seconds of silence prepended, is also present in this repository.
+The recordings I am using, edited to remove a garbled word and with five seconds of silence prepended, are also present in this repository.
 
 [end]
