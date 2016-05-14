@@ -3,8 +3,8 @@
 The workflow I used follows what is described in this [2013 post by Frank Lowney](http://telestreamblog.telestream.net/2013/12/using-dictation-to-turn-recorded-audio-to-text-2/). Basic steps:
 
  1. Install Soundflower.
- 1. Pipe audio to Soundflower as "auxiliary device output".
- 1. Set Dictation input to Soundflower; set output of main audio application to Sounflower.
+ 1. Pipe audio output to Soundflower as "auxiliary device output" in Audio Hijack.
+ 1. Set both the input of Dictation tool and the output of main audio-playback application to Soundflower.
  1. Begin audio playback and then quickly start Dictation in a text editor that supports it.
 
 Third-party software I used: Audio Hijack Pro (v. 2.11.6), Audacity (v. 2.1.0), Soundflower (v. 1.5.1), BBEdit (v. 11.5.2). Points for attention:
@@ -15,17 +15,25 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Audacity (v. 2.1.0), 
  
  1. **Soundflower** is the actual driver that enables output from an audio-playback application to be piped to Dictation.
  
- 1. **BBEdit** has a free parallel release, **TextWrangler**. Both support dictation (menu Edit => Start Dictation…).
+ 1. **Dictation** is to be enabled in Apple's System Preferences (Dictation & Speech pane). That pane also allows use of a keyboard shortcut to start dictation,
  
- 1. **Dictation** is enabled in Apple's System Preferences => Dictation & Soeech. That preferences pane also allows a keyboard shortcut to be used to start dictation, but my keyboard is old and doesn't have the needed key; I assigned a key-binding to "Start Dictation…" in BBEdit (Preferences => Menus & Shortcuts). 
+ 1. **BBEdit** is what I used for receiving the output of Dictation. It has a free parallel release, **TextWrangler**. Both support Dictation (menu Edit => Start Dictation…). My keyboard is old and doesn't have the key needed for Dictation's keyboard shortcut; instead, I assigned a key-binding to "Start Dictation…" in BBEdit (Preferences => Menus & Shortcuts). 
  
  1. **Operating system**. I am on Apple OS 10.9.5. I don't know whether or not Soundflower works on later versions of the OS.
  
- 1. **Hardware**. When recording the sample text, I used a headset to ensure clarity. I honestly have no idea whether Apple's built-in microphone will do better or worse for this purpose. 
+ 1. **Hardware**. When recording the sample text, I used a headset to ensure clarity. I honestly have no idea whether Apple's built-in microphone will do better or worse for this purpose; Dictation may well be optimized for use with that hardware. 
 
  1. Apple's Dictation functionality doesn't produce identical transcriptions, even from the same original recording. Below are examples, all from the same original recording.
  
- 1. Comparing the original text to the transcription, by use of Python's `difflib.SequenceMatcher(isjunk=None, string_1, string_2, autojunk=False)`, the average "accuracy" is about 91% for the examples shown here, with QuickTime doing slightly worse in the two cases where the speed of the recording has been changed.
+ 1. Comparing the original text to the transcription, by use of Python's `difflib.SequenceMatcher(isjunk=None, string_1, string_2, autojunk=False)`, the average "accuracy" is about 91% for the examples shown here, with QuickTime doing slightly worse in the two cases where the speed of the recording was changed.
+
+## Data
+
+Original text I read from: 
+
+> There are those who consider that studies in harmony, counterpoint, and fugue are the exclusive province of the intended composer. But if we reflect that theory must follow practice, rarely preceding it except by chance, we must realize that musical theory is not a set of directions for composing music. It is rather the collected and systematized deductions gathered by observing the practice of composers over a long time, and it attempts to set forth what is or has been their common practice. It tells not how music will be written in the future, but how music has been written in the past. — Walter Piston, Introduction to _Harmony_ (1941)
+
+The recordings I am using, edited to remove a garbled word and with five seconds of silence prepended, are also present in this repository.
 
 ## Original recording, speed unchanged
 
@@ -64,13 +72,5 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Audacity (v. 2.1.0), 
 ### QuickTime (v. 10.3) playback:
 
 > There are those who consider that studies in harmony counterpoint if you are the exclusive province of the intended but if they reflect that theory must follow practice rarely proceeding into a chance we must realize that musical theory is not a set of directions for composing music it's rather the collected and systematize deductions gathered budgeting the practice of composers over Time and attempt to set forth what is O has been there compact it tells not how music but her music has been written in the past is the introduction to Harmony
-
----
-
-Original text I read from: 
-
-> There are those who consider that studies in harmony, counterpoint, and fugue are the exclusive province of the intended composer. But if we reflect that theory must follow practice, rarely preceding it except by chance, we must realize that musical theory is not a set of directions for composing music. It is rather the collected and systematized deductions gathered by observing the practice of composers over a long time, and it attempts to set forth what is or has been their common practice. It tells not how music will be written in the future, but how music has been written in the past. — Walter Piston, Introduction to _Harmony_ (1941)
-
-The recordings I am using, edited to remove a garbled word and with five seconds of silence prepended, are also present in this repository.
 
 [end]
