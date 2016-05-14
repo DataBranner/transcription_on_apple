@@ -29,7 +29,7 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Soundflower (v. 1.5.1
  
  
     ```python
-    difflib.SequenceMatcher(isjunk=None, string_1, string_2, autojunk=False)
+    difflib.SequenceMatcher(isjunk=None, string_1, string_2, autojunk=False).ratio()
     ```
 
     the average "accuracy" is about 91% for the examples shown here, with QuickTime doing slightly worse in the two cases where the speed of the recording was changed.
