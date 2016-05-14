@@ -67,10 +67,8 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Audacity (v. 2.1.0), 
 
 Original text I read from: 
 
-> There are those who consider that studies in harmony, counterpoint, and fugue are the exclusive province of the intended composer. But if we reflect that theory must follow practice, rarely preceding it except by chance, we must realize that musical theory is not a set of directions for composing music. It is rather the collected and systematized deductions gathered by observing the practice of composers over a long time, and it attempts to set forth what is or has been their common practice. It tells not how music will be written in the future, but how music has been written in the past.
-> 
-> 			Walter Piston, Introduction to _Harmony_ (1941)
+> There are those who consider that studies in harmony, counterpoint, and fugue are the exclusive province of the intended composer. But if we reflect that theory must follow practice, rarely preceding it except by chance, we must realize that musical theory is not a set of directions for composing music. It is rather the collected and systematized deductions gathered by observing the practice of composers over a long time, and it attempts to set forth what is or has been their common practice. It tells not how music will be written in the future, but how music has been written in the past. — Walter Piston, Introduction to _Harmony_ (1941)
 
-The recording I am using, edited to remove a garbled word and with five seconds of silence prepended, is also present in this repository.
+The recordings I am using, edited to remove a garbled word and with five seconds of silence prepended, is also present in this repository.
 
 [end]
