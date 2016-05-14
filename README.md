@@ -1,4 +1,4 @@
-As the first step in a small research project, I have been looking into automated transcription of recorded speech.
+As the first step in a small research project, I have been looking into automated transcription of recorded speech. What follows is merely notes on a published Workflow by a sound engineer.
 
 ## Workflow
 
