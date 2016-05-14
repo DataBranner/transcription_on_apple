@@ -23,7 +23,7 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Soundflower (v. 1.5.1
  
  1. **Hardware**. When recording the sample text, I used a headset to ensure clarity. I honestly have no idea whether Apple's built-in microphone will do better or worse for this purpose; Dictation may well be optimized for use with that hardware. 
 
- 1. Apple's Dictation functionality doesn't produce identical transcriptions on multiple runs, even from the same original recording. Under "Data", below, are examples, all from the same original recording.
+ 1. Apple's Dictation functionality doesn't produce identical transcriptions on multiple runs, even from the same original recording. Under "Transcription", below, are examples, all from the same original recording.
  
  1. Comparing the original text to the transcription, by use of Python's 
  
