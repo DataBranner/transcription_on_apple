@@ -8,7 +8,7 @@ One small irritation is that you can't use your computer for anything else while
 
 The workflow I used follows what is described in this [2013 post by Frank Lowney](http://telestreamblog.telestream.net/2013/12/using-dictation-to-turn-recorded-audio-to-text-2/) on Lucas Bischofberger's blog. Basic steps:
 
- 1. Install Soundflower and Audio Hijack, to handle communication between the audio-playback application and Apple's Dictation tool. Together these allow ther use of whatever audio-playback application you choose.
+ 1. Install Soundflower and Audio Hijack, to handle communication between the audio-playback application and Apple's Dictation tool. Together these allow the use of whatever audio-playback application you choose.
  1. Pipe audio output to Soundflower as "auxiliary device output" in Audio Hijack.
  1. Set both the input of Dictation tool and the output of main audio-playback application to Soundflower.
  1. For transcription from a recording, begin audio playback and then quickly turn on Dictation in a text editor that supports it.
@@ -19,7 +19,7 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Soundflower (v. 1.5.1
  
  1. **Soundflower** is the actual driver that enables output from an audio-playback application to be piped to Dictation.
  
- 1. **Audacity** is free and open-source, and it helpful for editing recordings, increasing volume, adding seconds of silence at the start of the recording (ensures Dictation doesn't miss the start of the recording), and slowing down fast-talking interviewees. 
+ 1. **Audacity** is free and open-source, and it is helpful for editing recordings, increasing volume, adding seconds of silence at the start of the recording (ensures Dictation doesn't miss the start of the recording), and slowing down fast-talking interviewees. 
  
  1. **Dictation** is to be enabled in Apple's System Preferences (`Dictation & Speech` pane). That pane also allows use of a keyboard shortcut to start dictation,
  
