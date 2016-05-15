@@ -8,7 +8,7 @@ One small irritation is that you can't use your computer for anything else while
 
 The workflow I used follows what is described in this [2013 post by Frank Lowney](http://telestreamblog.telestream.net/2013/12/using-dictation-to-turn-recorded-audio-to-text-2/) on Lucas Bischofberger's blog. Basic steps:
 
- 1. Install Soundflower and Audio Hijack, to handle communication between the audio-playback application and Apple's Dictation tool.
+ 1. Install Soundflower and Audio Hijack, to handle communication between the audio-playback application and Apple's Dictation tool. Together these allow ther use of whatever audio-playback application you choose.
  1. Pipe audio output to Soundflower as "auxiliary device output" in Audio Hijack.
  1. Set both the input of Dictation tool and the output of main audio-playback application to Soundflower.
  1. For transcription from a recording, begin audio playback and then quickly turn on Dictation in a text editor that supports it.
