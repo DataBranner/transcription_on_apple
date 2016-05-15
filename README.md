@@ -1,5 +1,9 @@
 As the first step in a small research project, I have been looking into automated transcription of recorded speech. What follows is merely notes on a published workflow by a sound engineer.
 
+In summary, automated transcription from a recording works reasonably well, but my workflow requires use of several programs, one of which costs some money.
+
+One small irritation is that you can't use your computer for anything else while the Dictation software is at work.
+
 ## Workflow
 
 The workflow I used follows what is described in this [2013 post by Frank Lowney](http://telestreamblog.telestream.net/2013/12/using-dictation-to-turn-recorded-audio-to-text-2/) on Lucas Bischofberger's blog. Basic steps:
