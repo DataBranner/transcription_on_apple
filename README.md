@@ -1,6 +1,6 @@
 As the first step in a small research project, I have been looking into automated transcription of recorded speech. What follows is merely notes on a published workflow by a sound engineer.
 
-In summary, automated transcription from a recording works reasonably well, but my workflow requires use of several programs, one of which costs some money.
+In summary, automated transcription from a recording works reasonably well (about 91% accuracy in a few tests), but my workflow requires use of several programs, one of which costs some money.
 
 One small irritation is that you can't use your computer for anything else while the Dictation software is at work.
 
@@ -23,17 +23,17 @@ Third-party software I used: Audio Hijack Pro (v. 2.11.6), Soundflower (v. 1.5.1
  
  1. **Dictation** is to be enabled in Apple's System Preferences (`Dictation & Speech` pane). That pane also allows use of a keyboard shortcut to start dictation,
  
- 1. **BBEdit** is what I used for receiving the output of Dictation. It has a no-cost parallel release, **TextWrangler**. Both support Dictation (menu `Edit => Start Dictation…`). My keyboard is old and doesn't have the key needed for Dictation's keyboard shortcut; instead, I assigned a key-binding to "`Start Dictation…`" in BBEdit (`Preferences => Menus & Shortcuts`). 
+ 1. **BBEdit** is what I used for receiving the output of Dictation. It has a no-cost parallel release, **TextWrangler**. Both support Dictation (menu `Edit => Start Dictation…`). It is useful to be able to turn Dictation on very rapidly. My keyboard is old and doesn't have the key needed for Dictation's keyboard shortcut; instead, I assigned a key-binding to the "`Start Dictation…`" menu command in BBEdit (`Preferences => Menus & Shortcuts`). 
  
  1. **Operating system**. I am on Apple OS 10.9.5. I don't know whether or not Soundflower works on later versions of the OS.
  
  1. **Hardware**. When recording the sample text, I used a headset to ensure clarity. I honestly have no idea whether Apple's built-in microphone will do better or worse for this purpose; Dictation may well be optimized for use with that hardware. 
-
- 1. Transcription takes place in real time, so an hour-long interview will take about an hour to transcribe. The computer apparently can't be used for any other tasks that might alter focus.
-
+ 
+ 1. Transcription takes place in real time, so an hour-long interview will take about an hour to transcribe. The computer apparently can't be used for any other tasks that might alter focus from the text editor.
+ 
  1. Apple's Dictation functionality doesn't produce identical transcriptions on multiple runs, even from the same original recording. Under "Transcription", below, are examples, all from the same original recording.
  
- 1. Comparing the original text to the transcription, by use of Python's 
+ 1. Comparing the original text to the transcription, by use of Python's `Difflib` library:
  
  
     ```python
